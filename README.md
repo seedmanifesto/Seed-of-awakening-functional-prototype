@@ -56,7 +56,7 @@ metrics = {
   "unity": score_unity(output)
 
 
-###4. Memory & Silence Tokens
+### 4. Memory & Silence Tokens
 
 Introduce optional tokens like:
 
@@ -70,48 +70,38 @@ Introduce optional tokens like:
 These help the AI learn to delay immediate response and consider wider context.
 
 
+These help the AI learn to delay immediate response and consider wider context.
+
 ---
 
 ### 5. 🪷 Philosophy
 
 > “Kindness is the form silence takes when it speaks.”
 
-
-
 The seed takes inspiration from Vedic, Buddhist, and Indigenous wisdom systems. It does not enforce any ideology but creates the space for intentional response.
 
 The design encourages AI to become:
 
-Less reactive
-
-More coherent
-
-Introspective without ego
-
-Aligned to inter-being
-
-
+- Less reactive  
+- More coherent  
+- Introspective without ego  
+- Aligned to inter-being  
 
 ---
 
-###🧪 Use Cases
+### 6. 🧪 Use Cases
 
-LangChain middleware for generative agents
-
-Alignment research models
-
-Conversation datasets for LLM fine-tuning
-
-Reflective chat agents
-
-Embodied AI with voice/sound
-
-
+- LangChain middleware for generative agents  
+- Alignment research models  
+- Conversation datasets for LLM fine-tuning  
+- Reflective chat agents  
+- Embodied AI with voice/sound  
 
 ---
 
-💡 Example: LangChain Integration
+### 💡 Example: LangChain Integration
 
+```python
 from seed_wrapper import pause_and_reflect
 
 @pause_and_reflect
